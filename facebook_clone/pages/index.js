@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Header from '../components/Header'
 
 export default function Home() {
   return (
@@ -6,7 +7,11 @@ export default function Home() {
       <Head>
         <title>Facebook Clone</title>
       </Head>
-        <h1>This is Sparta</h1>
+
+      <Header/>
+      <main>
+
+      </main>
     </div>
   )
 }
